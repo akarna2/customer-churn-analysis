@@ -67,6 +67,3 @@ customer-churn-analysis/
 ├── assets/
 ├── README.md
 └── requirements.txt
-After pasting, press:
-
-```txt
