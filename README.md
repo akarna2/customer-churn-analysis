@@ -38,7 +38,15 @@ I tested:
 - Decision Tree
 
 ## Model Results
-Logistic Regression performed better than Decision Tree and was selected as the final model because it had stronger performance on churn detection.
+- Logistic Regression:
+  - Accuracy: 0.80
+  - Recall for churn: 0.57
+  - ROC-AUC: 0.836
+- Decision Tree:
+  - Accuracy: 0.78
+  - Recall for churn: 0.50
+  - ROC-AUC: 0.820
+- Final model selected: Logistic Regression
 
 ## Key Insights
 - Customers with shorter tenure are more likely to churn.
@@ -59,3 +67,6 @@ customer-churn-analysis/
 ├── assets/
 ├── README.md
 └── requirements.txt
+After pasting, press:
+
+```txt
